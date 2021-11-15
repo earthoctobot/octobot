@@ -1,0 +1,42 @@
+body {
+  background-image: url(/super.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: sans-serif;
+}
+.content {
+  background-color: black;
+  width: 95%;
+  padding: 30px;
+  margin: 100px auto;
+}
+p {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#bar a:link {
+  font-family: monospace;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 30px;
+  float: right;
+  color: #ffffff;
+}
+
+#bar a:visited {
+  float: right;
+  color: rgb(251, 255, 0);
+}
+#bar a:hover {
+  float: right;
+  color: red;
+}
+
+#h1 {
+  font-size: 50px;
+  font-family: monospace;
+  font-weight: bolder;
+}
